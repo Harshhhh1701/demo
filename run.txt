@@ -1,0 +1,14 @@
+Terminal 1
+mono MissionPlanner.exe
+
+Terminal 2
+cd DroneSim-Installer/ardupilot/Tools/autotest
+. fg_quad_view.sh
+
+Terminal 3
+sudo python sim_vehicle.py --console --map -v ArduCopter 
+(or)
+sudo python sim_vehicle.py -L KFSO -v ArduCopter
+
+Terminal 4
+sudo python drone1.py
